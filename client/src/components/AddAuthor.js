@@ -17,6 +17,7 @@ class AddAuthors extends React.Component{
         return(
             <div>
                 <form id="add-author" style={ { marginTop: '150px' } }>
+                    <p>Work in progress...</p>
                     <div className="field">
                         <label>Author Name</label>
                         <input type="text" onChange={ (e) => this.setState({ name: e.target.value })} />
